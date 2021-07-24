@@ -7,12 +7,21 @@ from PyQt5.QtCore import pyqtSlot
 tab=dict()
 
 #Grammer
-
+'''
 tab["S->iEtSS'"] =  "i"
 tab["S->a"] =  "a"
 tab["S'->eS"] = "e"  
 tab["S'->ϵ"]  = 'ϵ'
 tab['E->b'] = 'b'
+'''
+tab['E->T Er'] = ['E','id']
+tab['ER->+ T ER'] = ['ER','+']
+tab['ER->ϵ'] = ['ER','$']
+tab['T->F TR'] = ['T','id']
+tab['TR->* F TR'] = ['TR','*']
+tab['TR->ϵ'] = ['TR','$']
+tab['F->( E )'] = ['F','(']
+tab['F->id'] = ['F','id']
 
 non_terminals,firsts,keys = list() , list() , list()
 for i,j in tab.items():
