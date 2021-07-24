@@ -5,4 +5,6 @@
 <li>First and Follow Sets</li>
 <li>Build Parsing Table using PyQt5</li>
 </ul>
-![ll1_m](https://user-images.githubusercontent.com/86795519/126873259-03a63887-8cec-4cb2-b503-721df99095f1.PNG)
+
+![ll](https://user-images.githubusercontent.com/86795519/126873324-668ccb4a-3985-478d-a172-3f4d848b2188.PNG)
+
